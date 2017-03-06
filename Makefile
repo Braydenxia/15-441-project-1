@@ -10,6 +10,8 @@
 
 default: echo_server echo_client
 
+update: clean echo_server echo_client
+
 echo_server:
 	@gcc echo_server.c -o echo_server -Wall -Werror
 
