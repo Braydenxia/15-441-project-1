@@ -9,7 +9,7 @@
 #include        <sys/types.h>
 #include        <unistd.h>
 
-#define     ECHO_PORT       9999
+#define     ECHO_PORT       8080
 #define     BUF_SIZE        4096
 #define     CLIENT_LIMIT    2000
 
